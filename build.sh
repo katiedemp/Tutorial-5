@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm *.class # clean project
+#rm *.class # clean project
 javac Calc.java # compile project
 if[$?-ne0] #if exit code is not 0 javac failed
 then
