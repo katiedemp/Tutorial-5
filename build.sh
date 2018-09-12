@@ -7,4 +7,5 @@ if [ $? -ne 0 ]
 then
   echo "Compile failed"
   exit 1
-fijava -ea Calc
+fi
+java -ea Calc
